@@ -11,6 +11,6 @@ app.get("/about", function(req, res) {
     res.render("about");
 });
 
-app.listen(80, function() {
+app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Web server is running...");
 });
