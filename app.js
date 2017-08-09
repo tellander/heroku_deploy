@@ -11,6 +11,6 @@ app.get("/about", function(req, res) {
     res.render("about");
 });
 
-app.listen(1701, function() {
+app.listen(80, function() {
     console.log("Web server is running...");
 });
